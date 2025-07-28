@@ -1614,7 +1614,6 @@ section,
 }
 
 .portfolio .portfolio-wrap {
-  image-rendering: optimizeSpeed;
   transition: 0.4s;
   max-width: 200px;
   aspect-ratio: 1/1;

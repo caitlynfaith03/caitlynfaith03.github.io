@@ -411,6 +411,7 @@ h6 {
 .scroll-top {
   position: fixed;
   visibility: hidden;
+  align-items: right;
   opacity: 0;
   right: 15px;
   bottom: -15px;
@@ -423,7 +424,7 @@ h6 {
 }
 
 .scroll-top i {
-  font-size: 24px;
+  font-size: 44px;
   color: var(--contrast-color);
   line-height: 0;
 }

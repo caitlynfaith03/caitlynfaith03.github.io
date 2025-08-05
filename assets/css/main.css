@@ -1561,10 +1561,6 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
-.portfolio-item .isoptope-item {
-  align-items: center;
-}
-
 .portfolio .portfolio-filters {
   padding: 0;
   margin: 0;

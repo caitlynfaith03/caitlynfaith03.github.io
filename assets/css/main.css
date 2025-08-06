@@ -1637,7 +1637,7 @@ section,
 
 .portfolio .portfolio-wrap .portfolio-info .category {
   color: #ffffff;
-  font-size: 1.1vw;
+  font-size: 1.3vw;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1vw;
@@ -1646,7 +1646,7 @@ section,
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 1.4vw;
+  font-size: 1.6vw;
   color: var(--contrast-color);
   font-weight: 700;
   line-height: 1.8vw;
@@ -1660,14 +1660,14 @@ section,
 
 .portfolio .portfolio-wrap .portfolio-info .portfolio-links a {
   color: var(--contrast-color);
-  width: 1.4vw;
-  height: 1.4vw;
+  width: 2vw;
+  height: 2vw;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: color-mix(in srgb, var(--accent-color), transparent 30%);
   border-radius: 50%;
-  font-size: 1.2vw;
+  font-size: 1.8vw;
   transition: 0.3s;
 }
 

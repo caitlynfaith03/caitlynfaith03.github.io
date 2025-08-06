@@ -1584,7 +1584,7 @@ section,
 .portfolio .portfolio-filters li {
   cursor: pointer;
   padding: 5%;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 500;
   line-height: 33%;
   color: var(--default-color);
@@ -1636,18 +1636,20 @@ section,
 }
 
 .portfolio .portfolio-wrap .portfolio-info .category {
-  display: absolute;
   color: #ffffff;
-  font-size: 75%;
+  font-size: 1.1vw;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.1vw;
+  line-height: 0.1vw;
+  height: 33%;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 90%;
+  font-size: 1.4vw;
   color: var(--contrast-color);
   font-weight: 700;
+  line-height: 1.8vw;
 }
 
 .portfolio .portfolio-wrap .portfolio-info .portfolio-links {
@@ -1658,14 +1660,14 @@ section,
 
 .portfolio .portfolio-wrap .portfolio-info .portfolio-links a {
   color: var(--contrast-color);
-  width: 25px;
-  height: 25px;
+  width: 1.4vw;
+  height: 1.4vw;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: color-mix(in srgb, var(--accent-color), transparent 30%);
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 1.2vw;
   transition: 0.3s;
 }
 

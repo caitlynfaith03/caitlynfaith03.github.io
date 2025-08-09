@@ -1640,18 +1640,19 @@ section,
 
 .portfolio .portfolio-wrap .portfolio-info .category {
   color: #ffffff;
-  font-size: 1.3vw;
+  display: inline-block;
+  font-size: 10px;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.1vw;
-  line-height: 0.1vw;
+  letter-spacing: 1px;
+  line-height: 10px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 1.6vw;
+  font-size: max(16px);
   color: var(--contrast-color);
   font-weight: 700;
-  line-height: 1.8vw;
+  line-height: 15px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info .portfolio-links {
@@ -1699,11 +1700,9 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-box {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-  border-radius: 1rem;
   height: 100%;
   width: 100%;
+  place-items: center;
 }
 
 @media (max-width: 992px) {
@@ -1717,6 +1716,8 @@ section,
   gap: 2rem;
   margin-bottom: 0rem;
   padding: 2rem;
+  align-items: center;
+  place-items: center;
 }
 
 .contact .info-item:last-child {
@@ -1728,9 +1729,8 @@ section,
   height: 3.5rem;
   background-color: color-mix(in srgb, var(--contrast-color), transparent 85%);
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   flex-shrink: 0;
   transition: 0.3s;
 }
@@ -1738,17 +1738,20 @@ section,
 .contact .info-item .icon-box i {
   font-size: 1.5rem;
   color: var(--contrast-color);
-  display: flex;
+  display: grid;
+  place-items: center;
 }
 
 .contact .info-item .content h4 {
   color: var(--contrast-color);
   font-size: 1.25rem;
   font-weight: 700;
+  place-items: center;
 }
 
 .contact .info-item .content p {
   font-size: 0.95rem;
+  place-items: center;
 }
 
 .contact .info-item .content p:last-child {

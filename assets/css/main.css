@@ -1663,14 +1663,14 @@ section,
 
 .portfolio .portfolio-wrap .portfolio-info .portfolio-links a {
   color: var(--contrast-color);
-  width: 2vw;
-  height: 2vw;
+  width: max(14px);
+  height: max(14px);
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: color-mix(in srgb, var(--accent-color), transparent 30%);
   border-radius: 50%;
-  font-size: 1.8vw;
+  font-size: max(12px);
   transition: 0.3s;
 }
 
@@ -1751,7 +1751,6 @@ section,
 
 .contact .info-item .content p {
   font-size: 0.95rem;
-  place-items: center;
 }
 
 .contact .info-item .content p:last-child {

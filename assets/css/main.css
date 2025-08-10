@@ -1571,8 +1571,8 @@ section,
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 300px;
+  max-height: 300px;
   aspect-ratio: 1/1;
 }
 

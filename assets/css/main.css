@@ -1708,7 +1708,7 @@ section,
 .contact .info-item {
   gap: 2rem;
   margin-bottom: 0rem;
-  padding: 1rem;
+  padding: 0.3rem;
   transition: 0.3s;
 }
 
@@ -1738,10 +1738,6 @@ section,
 
 .contact .info-item .content p {
   font-size: clamp(8px, 3vw, 16px);
-}
-
-.contact .info-item .content p:last-child {
-  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------

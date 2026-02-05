@@ -1703,6 +1703,8 @@ section,
   height: 100%;
   width: 100%;
   place-items: center;
+  flex-direction: column;
+  transition: 0.3s;
 }
 
 @media (max-width: 992px) {
@@ -1712,16 +1714,11 @@ section,
 }
 
 .contact .info-item {
-  display: inline-flex;
   gap: 2rem;
   margin-bottom: 0rem;
-  padding: 2rem;
-  align-items: center;
-  place-items: center;
-}
-
-.contact .info-item:last-child {
-  margin-bottom: 0;
+  padding: 1rem;
+  transition: 0.3s;
+  flex-wrap: wrap;
 }
 
 .contact .info-item .icon-box {
@@ -1732,11 +1729,10 @@ section,
   display: grid;
   place-items: center;
   flex-shrink: 0;
-  transition: 0.3s;
 }
 
 .contact .info-item .icon-box i {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   color: var(--contrast-color);
   display: grid;
   place-items: center;
@@ -1744,13 +1740,13 @@ section,
 
 .contact .info-item .content h4 {
   color: var(--contrast-color);
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-weight: 700;
   place-items: center;
 }
 
 .contact .info-item .content p {
-  font-size: 0.95rem;
+  font-size: 0.95em;
 }
 
 .contact .info-item .content p:last-child {

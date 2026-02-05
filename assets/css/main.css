@@ -1702,8 +1702,6 @@ section,
 .contact .info-box {
   height: 100%;
   width: 100%;
-  place-items: center;
-  flex-direction: column;
   transition: 0.3s;
 }
 
@@ -1718,7 +1716,6 @@ section,
   margin-bottom: 0rem;
   padding: 1rem;
   transition: 0.3s;
-  flex-wrap: wrap;
 }
 
 .contact .info-item .icon-box {

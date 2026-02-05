@@ -1712,6 +1712,12 @@ section,
   transition: 0.3s;
 }
 
+.contact .info-item:last-child {
+  gap: 2rem;
+  margin-bottom: 0rem;
+  padding: 0.3rem;
+  transition: 0.3s;
+}
 .contact .info-item .icon-box {
   width: clamp(20px, 6vw, 50px);
   height: clamp(20px, 6vw, 50px);
@@ -1731,13 +1737,13 @@ section,
 
 .contact .info-item .content h4 {
   color: var(--contrast-color);
-  font-size: clamp(10px, 4.2vw, 17px);
+  font-size: clamp(8px, 4.2vw, 17px);
   font-weight: 700;
   place-items: center;
 }
 
 .contact .info-item .content p {
-  font-size: clamp(8px, 3vw, 16px);
+  font-size: clamp(6px, 3vw, 16px);
 }
 
 /*--------------------------------------------------------------

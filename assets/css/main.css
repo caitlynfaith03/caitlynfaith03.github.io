@@ -1705,12 +1705,6 @@ section,
   transition: 0.3s;
 }
 
-@media {
-  .contact .info-box {
-    padding: 1.5rem;
-  }
-}
-
 .contact .info-item {
   gap: 2rem;
   margin-bottom: 0rem;
@@ -1729,7 +1723,7 @@ section,
 }
 
 .contact .info-item .icon-box i {
-  font-size: clamp(10px, 2vw, 30px);
+  font-size: clamp(10px, 2vw, 20px);
   color: var(--contrast-color);
   display: grid;
   place-items: center;
@@ -1737,14 +1731,13 @@ section,
 
 .contact .info-item .content h4 {
   color: var(--contrast-color);
-  font-size: clamp(8px, 4vw, 17px);
+  font-size: clamp(10px, 4.2vw, 17px);
   font-weight: 700;
   place-items: center;
-
 }
 
 .contact .info-item .content p {
-  font-size: clamp(6px, 2vw, 16px);
+  font-size: clamp(8px, 3vw, 16px);
 }
 
 .contact .info-item .content p:last-child {
